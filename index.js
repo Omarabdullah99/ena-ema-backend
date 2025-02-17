@@ -6,6 +6,8 @@ import mongoose from 'mongoose';
 import dotenv from 'dotenv';
 import UserRouter from './routers/UserRouter.js';
 import ProductRouter from './routers/ProductRouter.js';
+import BrandRouter from './routers/BrandRouter.js';
+
 dotenv.config();
 
 
@@ -22,6 +24,7 @@ app.use(cors())
 //*Router Middleware
 app.use("/users",UserRouter)
 app.use("/products",ProductRouter)
+app.use("/brand",BrandRouter)
 
 
 
