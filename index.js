@@ -7,6 +7,8 @@ import dotenv from 'dotenv';
 import UserRouter from './routers/UserRouter.js';
 import ProductRouter from './routers/ProductRouter.js';
 import BrandRouter from './routers/BrandRouter.js';
+import CategoryRouter from './routers/CategoryRouter.js';
+
 
 dotenv.config();
 
@@ -25,6 +27,7 @@ app.use(cors())
 app.use("/users",UserRouter)
 app.use("/products",ProductRouter)
 app.use("/brand",BrandRouter)
+app.use("/category",CategoryRouter)
 
 
 
