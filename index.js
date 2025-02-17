@@ -21,7 +21,11 @@ const app = express()
 app.use(morgan("dev"))
 app.use(express.json({ limit: "30mb", extended: true }));
 app.use(express.urlencoded({ limit: "30mb", extended: true }));
-app.use(cors())
+app.use(cors(
+  {
+    exposedHeaders: ['X-Total-Count']
+  }
+))
 
 //*Router Middleware
 app.use("/users",UserRouter)
