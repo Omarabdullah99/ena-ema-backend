@@ -60,6 +60,25 @@ export const signup = async (req, res) => {
     }
   };
 
+  export const allUsers=  async(req,res)=>{
+    try {
+        const result= await UserModel.find()
+        res.status(200).json(result)
+    } catch (error) {
+        res.status(400).json(error)
+        
+    }
+  }
+  export const findUserById = async (req, res) => {
+    const { id } = req.params;
+    try {
+      const user = await UserModel.findById(id);
+      res.status(200).json(user);
+    } catch (err) {
+      res.status(400).json(err);
+    }
+  };
+
   export const testUser=async(req,res)=>{
     res.status(200).json({message:"ok router"})
   }

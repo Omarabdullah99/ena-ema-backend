@@ -1,0 +1,230 @@
+[
+    {
+      "title": "Samsung Galaxy S21",
+      "description": "Latest flagship smartphone from Samsung.",
+      "price": 799,
+      "rating": 4.5,
+      "stock": 50,
+      "brand": "Samsung",
+      "category": "smartphones",
+      "thumbnail": "https://example.com/s21.jpg",
+      "images": ["https://example.com/s21_1.jpg", "https://example.com/s21_2.jpg"]
+    },
+    {
+      "title": "Apple MacBook Pro",
+      "description": "Powerful laptop with M1 chip.",
+      "price": 1299,
+      "rating": 4.8,
+      "stock": 30,
+      "brand": "Apple",
+      "category": "laptops",
+      "thumbnail": "https://example.com/macbook.jpg",
+      "images": ["https://example.com/macbook_1.jpg", "https://example.com/macbook_2.jpg"]
+    },
+    {
+      "title": "L'Oreal Paris Face Cream",
+      "description": "Moisturizing face cream for smooth skin.",
+      "price": 25,
+      "rating": 4.2,
+      "stock": 100,
+      "brand": "L'Oreal Paris",
+      "category": "skincare",
+      "thumbnail": "https://example.com/facecream.jpg",
+      "images": ["https://example.com/facecream_1.jpg", "https://example.com/facecream_2.jpg"]
+    },
+    {
+      "title": "Royal Mirage Perfume",
+      "description": "Long-lasting fragrance for men and women.",
+      "price": 40,
+      "rating": 4.6,
+      "stock": 70,
+      "brand": "Royal_Mirage",
+      "category": "fragrances",
+      "thumbnail": "https://example.com/perfume.jpg",
+      "images": ["https://example.com/perfume_1.jpg", "https://example.com/perfume_2.jpg"]
+    },
+    {
+      "title": "Professional Wear Blazer",
+      "description": "Stylish blazer for office wear.",
+      "price": 120,
+      "rating": 4.3,
+      "stock": 40,
+      "brand": "Professional Wear",
+      "category": "tops",
+      "thumbnail": "https://example.com/blazer.jpg",
+      "images": ["https://example.com/blazer_1.jpg", "https://example.com/blazer_2.jpg"]
+    },
+    {
+      "title": "OPPO Reno 8",
+      "description": "Sleek and powerful smartphone.",
+      "price": 699,
+      "rating": 4.4,
+      "stock": 60,
+      "brand": "OPPO",
+      "category": "smartphones",
+      "thumbnail": "https://example.com/oppo.jpg",
+      "images": ["https://example.com/oppo_1.jpg", "https://example.com/oppo_2.jpg"]
+    },
+    {
+      "title": "HP Pavilion Laptop",
+      "description": "Reliable laptop for work and study.",
+      "price": 850,
+      "rating": 4.5,
+      "stock": 25,
+      "brand": "HP Pavilion",
+      "category": "laptops",
+      "thumbnail": "https://example.com/hp.jpg",
+      "images": ["https://example.com/hp_1.jpg", "https://example.com/hp_2.jpg"]
+    },
+    {
+      "title": "Boho Decor Set",
+      "description": "Beautiful decor set for your home.",
+      "price": 99,
+      "rating": 4.7,
+      "stock": 80,
+      "brand": "Boho Decor",
+      "category": "home-decoration",
+      "thumbnail": "https://example.com/boho.jpg",
+      "images": ["https://example.com/boho_1.jpg", "https://example.com/boho_2.jpg"]
+    },
+    {
+      "title": "Soft Cotton Bedsheet",
+      "description": "Comfortable and high-quality bedsheet.",
+      "price": 35,
+      "rating": 4.3,
+      "stock": 90,
+      "brand": "Soft Cotton",
+      "category": "furniture",
+      "thumbnail": "https://example.com/bedsheet.jpg",
+      "images": ["https://example.com/bedsheet_1.jpg", "https://example.com/bedsheet_2.jpg"]
+    },
+    {
+      "title": "Dermive Moisturizer",
+      "description": "Hydrating moisturizer for all skin types.",
+      "price": 20,
+      "rating": 4.1,
+      "stock": 120,
+      "brand": "Dermive",
+      "category": "skincare",
+      "thumbnail": "https://example.com/dermive.jpg",
+      "images": ["https://example.com/dermive_1.jpg", "https://example.com/dermive_2.jpg"]
+    },
+
+ 
+  
+    {
+      "title": "Infinix Hot 10",
+      "description": "Budget-friendly smartphone with great performance.",
+      "price": 199,
+      "rating": 4.2,
+      "stock": 70,
+      "brand": "Infinix",
+      "category": "smartphones",
+      "thumbnail": "https://example.com/infinix_hot10.jpg",
+      "images": ["https://example.com/infinix_hot10_1.jpg", "https://example.com/infinix_hot10_2.jpg"]
+    },
+    {
+      "title": "Lord - Al-Rehab Choco Musk",
+      "description": "Sweet and warm fragrance for women.",
+      "price": 12,
+      "rating": 4.5,
+      "stock": 120,
+      "brand": "Lord - Al-Rehab",
+      "category": "fragrances",
+      "thumbnail": "https://example.com/chocomusk.jpg",
+      "images": ["https://example.com/chocomusk_1.jpg", "https://example.com/chocomusk_2.jpg"]
+    },
+    {
+      "title": "Fog Scent Xpressio Eau de Parfum",
+      "description": "A bold and captivating scent.",
+      "price": 30,
+      "rating": 4.3,
+      "stock": 85,
+      "brand": "Fog Scent Xpressio",
+      "category": "fragrances",
+      "thumbnail": "https://example.com/fogscent_parfum.jpg",
+      "images": ["https://example.com/fogscent_parfum_1.jpg", "https://example.com/fogscent_parfum_2.jpg"]
+    },
+    {
+      "title": "Dry Rose Eau de Toilette",
+      "description": "A delicate and romantic fragrance.",
+      "price": 25,
+      "rating": 4.4,
+      "stock": 95,
+      "brand": "Dry Rose",
+      "category": "fragrances",
+      "thumbnail": "https://example.com/dryrose_toilette.jpg",
+      "images": ["https://example.com/dryrose_toilette_1.jpg", "https://example.com/dryrose_toilette_2.jpg"]
+    },
+    {
+      "title": "Hemani Green Tea",
+      "description": "Pure and refreshing green tea.",
+      "price": 8,
+      "rating": 4.1,
+      "stock": 250,
+      "brand": "Hemani Tea",
+      "category": "groceries",
+      "thumbnail": "https://example.com/hemani_greentea.jpg",
+      "images": ["https://example.com/hemani_greentea_1.jpg", "https://example.com/hemani_greentea_2.jpg"]
+    },
+    {
+      "title": "Fair & Clear Moisturizer",
+      "description": "Hydrating moisturizer for glowing skin.",
+      "price": 10,
+      "rating": 4.0,
+      "stock": 180,
+      "brand": "Fair & Clear",
+      "category": "skincare",
+      "thumbnail": "https://example.com/fairclear_moisturizer.jpg",
+      "images": ["https://example.com/fairclear_moisturizer_1.jpg", "https://example.com/fairclear_moisturizer_2.jpg"]
+    },
+    {
+      "title": "ROREC Basmati Rice",
+      "description": "Premium quality basmati rice.",
+      "price": 15,
+      "rating": 4.2,
+      "stock": 300,
+      "brand": "ROREC White Rice",
+      "category": "groceries",
+      "thumbnail": "https://example.com/rorec_basmati.jpg",
+      "images": ["https://example.com/rorec_basmati_1.jpg", "https://example.com/rorec_basmati_2.jpg"]
+    },
+    {
+      "title": "Huawei MateBook D15",
+      "description": "Sleek and powerful laptop for everyday use.",
+      "price": 899,
+      "rating": 4.6,
+      "stock": 25,
+      "brand": "Huawei",
+      "category": "laptops",
+      "thumbnail": "https://example.com/huawei_matebook.jpg",
+      "images": ["https://example.com/huawei_matebook_1.jpg", "https://example.com/huawei_matebook_2.jpg"]
+    },
+    {
+      "title": "Microsoft Surface Pro 8",
+      "description": "Versatile 2-in-1 laptop with pen support.",
+      "price": 1299,
+      "rating": 4.7,
+      "stock": 20,
+      "brand": "Microsoft Surface",
+      "category": "laptops",
+      "thumbnail": "https://example.com/surface_pro8.jpg",
+      "images": ["https://example.com/surface_pro8_1.jpg", "https://example.com/surface_pro8_2.jpg"]
+    },
+    {
+      "title": "Flying Wooden Coffee Table",
+      "description": "Elegant wooden coffee table for your living room.",
+      "price": 200,
+      "rating": 4.8,
+      "stock": 40,
+      "brand": "Flying Wooden",
+      "category": "furniture",
+      "thumbnail": "https://example.com/wooden_coffee_table.jpg",
+      "images": ["https://example.com/wooden_coffee_table_1.jpg", "https://example.com/wooden_coffee_table_2.jpg"]
+    }
+  ]
+
+
+
+
+ 
