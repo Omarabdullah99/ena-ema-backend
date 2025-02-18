@@ -8,6 +8,8 @@ import UserRouter from './routers/UserRouter.js';
 import ProductRouter from './routers/ProductRouter.js';
 import BrandRouter from './routers/BrandRouter.js';
 import CategoryRouter from './routers/CategoryRouter.js';
+import CartRouter from './routers/CartRouter.js';
+
 
 
 dotenv.config();
@@ -32,6 +34,7 @@ app.use("/users",UserRouter)
 app.use("/products",ProductRouter)
 app.use("/brand",BrandRouter)
 app.use("/category",CategoryRouter)
+app.use("/cart",CartRouter)
 
 
 
