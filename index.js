@@ -9,6 +9,8 @@ import ProductRouter from './routers/ProductRouter.js';
 import BrandRouter from './routers/BrandRouter.js';
 import CategoryRouter from './routers/CategoryRouter.js';
 import CartRouter from './routers/CartRouter.js';
+import OrderRouter from './routers/OrderRouter.js';
+
 
 
 
@@ -35,6 +37,7 @@ app.use("/products",ProductRouter)
 app.use("/brand",BrandRouter)
 app.use("/category",CategoryRouter)
 app.use("/cart",CartRouter)
+app.use("/order",OrderRouter)
 
 
 

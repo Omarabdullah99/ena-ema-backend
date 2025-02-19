@@ -72,13 +72,13 @@ export const createAddToCart = async (req, res) => {
         },
       };
 
-      let ProjectionStage = { $project: { "user._id": 0, "product._id": 0 } };
+      // let ProjectionStage = { $project: { "user._id": 0, "product._id": 0 } };
 
       let data = await AddToCartModel.aggregate([
         matchStage,
         JoinWithUserStage,JoinWithProductStage,
         unwindUserStage,unwindProductStage,
-        ProjectionStage
+        // ProjectionStage
       ])
 
       res.status(200).json(data)
@@ -154,7 +154,7 @@ export const createAddToCart = async (req, res) => {
             ProjectionStage
         ]);
 
-        res.status(200).json(updatedCartData);
+        res.status(200).json(updatedCartData[0]);
 
     } catch (error) {
         res.status(400).json({ error: error.message });
@@ -172,3 +172,8 @@ export const deleteCartById=async(req,res)=>{
     }
   }
 
+
+
+
+
+  
