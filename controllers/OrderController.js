@@ -25,14 +25,35 @@ export const createOrder = async (req, res) => {
   }
 };
 
-export const getAllOrder = async (req, res) => {
-  try {
-    let result = await OrderModel.find();
-    res.status(200).json(result);
-  } catch (error) {
-    res.status(400).json(error);
+// export const getAllOrder = async (req, res) => {
+//   try {
+//     let result = await OrderModel.find();
+//     res.status(200).json(result);
+//   } catch (error) {
+//     res.status(400).json(error);
+//   }
+// };
+
+export const fetchAllOrders=async(req,res)=>{
+  //pagination= {_page:1, _limit=2}
+  let query= OrderModel.find({})
+  let totalOrdersQuery= OrderModel.find({})
+  const totalDocs= await totalOrdersQuery.countDocuments().exec()
+  console.log("page",req.query._page)
+  if (req.query._page && req.query._limit) {
+    const pageSize = req.query._limit;
+    const page = req.query._page;
+    query = query.skip(pageSize * (page - 1)).limit(pageSize);
   }
-};
+  try {
+    const doc= await  query.exec()
+    res.set("X-Total-Count",totalDocs)
+    res.status(200).json(doc)
+  } catch (error) {
+    res.status(400).json(error)
+    
+  }
+}
 
 
  export const getOrderByUserId= async(req,res)=>{
@@ -80,4 +101,15 @@ export const getAllOrder = async (req, res) => {
         res.status(400).json(error)
         
     }
+  }
+
+  export const updateOrder=async(req,res)=>{
+    const {id}= req.params
+    try {
+      const doc= await OrderModel.findByIdAndUpdate(id, req.body, {new:true})
+      res.status(200).json(doc)
+    } catch (error) {
+      res.status(400).json(error)
+    }
+  
   }
