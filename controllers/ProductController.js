@@ -88,6 +88,17 @@ export const updateProduct=async(req,res)=>{
 
 }
 
+export const deleteProduct=async(req,res)=>{
+  try {
+    const id= req.params.id
+    const deleteProduct= await ProductModel.findByIdAndDelete(id)
+    res.status(200).json(deleteProduct)
+    
+  } catch (error) {
+    res.status(400).json(error)
+  }
+}
+
 export const testProduct = async (req, res) => {
   res.send("helloProduct");
 };
