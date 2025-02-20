@@ -10,6 +10,8 @@ import BrandRouter from './routers/BrandRouter.js';
 import CategoryRouter from './routers/CategoryRouter.js';
 import CartRouter from './routers/CartRouter.js';
 import OrderRouter from './routers/OrderRouter.js';
+import WishListRouter from './routers/WishListRouter.js';
+
 
 
 
@@ -38,6 +40,7 @@ app.use("/brand",BrandRouter)
 app.use("/category",CategoryRouter)
 app.use("/cart",CartRouter)
 app.use("/order",OrderRouter)
+app.use("/wishList",WishListRouter)
 
 
 
